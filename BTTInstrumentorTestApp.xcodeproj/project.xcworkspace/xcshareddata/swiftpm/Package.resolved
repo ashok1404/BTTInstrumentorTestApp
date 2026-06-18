@@ -1,0 +1,24 @@
+{
+  "originHash" : "96992b3aa37d4136e99f71ba715e41ad87c106ab0ad324f9efec3c4878a4661f",
+  "pins" : [
+    {
+      "identity" : "btt-swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JP-aloha/btt-swift-sdk.git",
+      "state" : {
+        "branch" : "feature/auto_track_test",
+        "revision" : "99400b9a92ed3464e67c45c62998686c1004da20"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}
