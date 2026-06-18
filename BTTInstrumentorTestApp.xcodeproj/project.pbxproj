@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51F133F32FE40D33004D0438 /* BlueTriangle in Frameworks */ = {isa = PBXBuildFile; productRef = 51F133F22FE40D33004D0438 /* BlueTriangle */; };
+		51F133F62FE4150D004D0438 /* BlueTriangle in Frameworks */ = {isa = PBXBuildFile; productRef = 51F133F52FE4150D004D0438 /* BlueTriangle */; };
 		AABB000100000001 /* BTTInstrumentorTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000001 /* BTTInstrumentorTestApp.swift */; };
 		AABB000100000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000002 /* ContentView.swift */; };
 		AABB000100000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB000200000004 /* Assets.xcassets */; };
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F133F32FE40D33004D0438 /* BlueTriangle in Frameworks */,
+				51F133F62FE4150D004D0438 /* BlueTriangle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +138,9 @@
 			dependencies = (
 			);
 			name = BTTInstrumentorTestApp;
+			packageProductDependencies = (
+				51F133F52FE4150D004D0438 /* BlueTriangle */,
+			);
 			productName = BTTInstrumentorTestApp;
 			productReference = AABB000200000006 /* BTTInstrumentorTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -167,7 +170,7 @@
 			);
 			mainGroup = AABB000400000003;
 			packageReferences = (
-				51F133F12FE40D33004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */,
+				51F133F42FE4150D004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */,
 			);
 			productRefGroup = AABB000400000001 /* Products */;
 			projectDirPath = "";
@@ -419,20 +422,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		51F133F12FE40D33004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */ = {
+		51F133F42FE4150D004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JP-aloha/btt-swift-sdk.git";
 			requirement = {
-				branch = feature/auto_track_test;
+				branch = feature/swiftui_auto_track;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		51F133F22FE40D33004D0438 /* BlueTriangle */ = {
+		51F133F52FE4150D004D0438 /* BlueTriangle */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51F133F12FE40D33004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */;
+			package = 51F133F42FE4150D004D0438 /* XCRemoteSwiftPackageReference "btt-swift-sdk" */;
 			productName = BlueTriangle;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -6,7 +6,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JP-aloha/btt-swift-sdk.git",
       "state" : {
-        "branch" : "feature/auto_track_test",
+        "branch" : "feature/swiftui_auto_track",
         "revision" : "99400b9a92ed3464e67c45c62998686c1004da20"
       }
     },
