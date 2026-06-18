@@ -17,10 +17,11 @@ struct WithGuardAndElseView: View {
      var data: String? = "data"
      var body: some View {
          guard let data else {
-             return AnyView(EmptyView())   // not injected
+             return AnyView(EmptyView()
+                 .bttTrackScreen("\(Self.self)"))
          }
-         return AnyView(Text(data))
-             .bttTrackScreen("\(Self.self)")
+         return AnyView(Text(data)
+             .bttTrackScreen("\(Self.self)"))
      }
  }
  */
@@ -28,7 +29,7 @@ struct WithGuardAndElseView: View {
 struct WithGuardAndElseScreen: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("A guard with EmptyView in the else path and a real view in the happy path. Reversed iteration finds the last return first and injects there — the guard-fail branch is left untouched.")
+            Text("A guard with EmptyView in the else path and a real view in the happy path. Both return paths are injected — the guard-fail EmptyView and the happy-path Text each get .bttTrackScreen inside AnyView(...).")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .padding(.horizontal)

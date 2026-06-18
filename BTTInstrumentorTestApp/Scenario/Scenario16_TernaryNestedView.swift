@@ -15,12 +15,12 @@ struct TernaryNestedView: View {
  struct TernaryNestedView: View {
      @State private var state = 0
      var body: some View {
-         state == 0 ? AnyView(Text("Zero"))
-                          .bttTrackScreen("\(Self.self)") :
-         state == 1 ? AnyView(Text("One"))
-                          .bttTrackScreen("\(Self.self)") :
-                      AnyView(Text("Other"))
-                          .bttTrackScreen("\(Self.self)")
+         state == 0 ? AnyView(Text("Zero")
+                          .bttTrackScreen("\(Self.self)")) :
+         state == 1 ? AnyView(Text("One")
+                          .bttTrackScreen("\(Self.self)")) :
+                      AnyView(Text("Other")
+                          .bttTrackScreen("\(Self.self)"))
      }
  }
  */

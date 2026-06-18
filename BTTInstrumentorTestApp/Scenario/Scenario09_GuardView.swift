@@ -17,10 +17,11 @@ struct GuardView: View {
      var item: String? = "hello"
      var body: some View {
          guard let item else {
-             return AnyView(Text("Empty"))   // not injected
+             return AnyView(Text("Empty")
+                 .bttTrackScreen("\(Self.self)"))
          }
-         return AnyView(Text(item))
-             .bttTrackScreen("\(Self.self)")
+         return AnyView(Text(item)
+             .bttTrackScreen("\(Self.self)"))
      }
  }
  */
@@ -28,7 +29,7 @@ struct GuardView: View {
 struct GuardScreen: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("A guard statement with an early return. The rewriter uses reversed iteration — it injects on the last return (the happy path) and never reaches the guard-fail branch.")
+            Text("A guard statement with an early return. The rewriter injects into ALL return paths — the happy path and the guard-fail branch both get .bttTrackScreen, inside AnyView(...).")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .padding(.horizontal)

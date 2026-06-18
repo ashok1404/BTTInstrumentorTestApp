@@ -1,0 +1,7 @@
+{
+  "targets" : [
+    "BTTInstrumentorTestApp"
+  ],
+  "version" : "1.0.1",
+  "xcodeprojName" : "BTTInstrumentorTestApp.xcodeproj"
+}
