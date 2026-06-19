@@ -11,10 +11,7 @@
 		51F133FB2FE53249004D0438 /* Scenario18_FunctionCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F133FA2FE53236004D0438 /* Scenario18_FunctionCall.swift */; };
 		51F133FE2FE53D21004D0438 /* Scenario19_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F133FD2FE53D03004D0438 /* Scenario19_Group.swift */; };
 		51F134002FE53D83004D0438 /* Scenario20_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F133FF2FE53D77004D0438 /* Scenario20_List.swift */; };
-		AABB000100000028 /* Scenario21_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000028 /* Scenario21_NavigationView.swift */; };
-		AABB000100000029 /* Scenario22_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000029 /* Scenario22_ScrollView.swift */; };
-		AABB000100000030 /* Scenario23_TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000030 /* Scenario23_TabView.swift */; };
-		AABB000100000031 /* Scenario24_ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000031 /* Scenario24_ContainerView.swift */; };
+		51F134022FE58132004D0438 /* Scenario25_CommentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F134012FE58111004D0438 /* Scenario25_CommentedView.swift */; };
 		AABB000100000001 /* BTTInstrumentorTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000001 /* BTTInstrumentorTestApp.swift */; };
 		AABB000100000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000002 /* ContentView.swift */; };
 		AABB000100000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB000200000004 /* Assets.xcassets */; };
@@ -36,16 +33,17 @@
 		AABB000100000025 /* Scenario15_ForceUnwrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000025 /* Scenario15_ForceUnwrapView.swift */; };
 		AABB000100000026 /* Scenario16_TernaryNestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000026 /* Scenario16_TernaryNestedView.swift */; };
 		AABB000100000027 /* Scenario17_WithGuardAndElseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000027 /* Scenario17_WithGuardAndElseView.swift */; };
+		AABB000100000028 /* Scenario21_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000028 /* Scenario21_NavigationView.swift */; };
+		AABB000100000029 /* Scenario22_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000029 /* Scenario22_ScrollView.swift */; };
+		AABB000100000030 /* Scenario23_TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000030 /* Scenario23_TabView.swift */; };
+		AABB000100000031 /* Scenario24_ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000200000031 /* Scenario24_ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51F133FA2FE53236004D0438 /* Scenario18_FunctionCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario18_FunctionCall.swift; sourceTree = "<group>"; };
 		51F133FD2FE53D03004D0438 /* Scenario19_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario19_Group.swift; sourceTree = "<group>"; };
 		51F133FF2FE53D77004D0438 /* Scenario20_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario20_List.swift; sourceTree = "<group>"; };
-		AABB000200000028 /* Scenario21_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario21_NavigationView.swift; sourceTree = "<group>"; };
-		AABB000200000029 /* Scenario22_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario22_ScrollView.swift; sourceTree = "<group>"; };
-		AABB000200000030 /* Scenario23_TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario23_TabView.swift; sourceTree = "<group>"; };
-		AABB000200000031 /* Scenario24_ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario24_ContainerView.swift; sourceTree = "<group>"; };
+		51F134012FE58111004D0438 /* Scenario25_CommentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario25_CommentedView.swift; sourceTree = "<group>"; };
 		AABB000200000001 /* BTTInstrumentorTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTInstrumentorTestApp.swift; sourceTree = "<group>"; };
 		AABB000200000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AABB000200000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +67,10 @@
 		AABB000200000025 /* Scenario15_ForceUnwrapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario15_ForceUnwrapView.swift; sourceTree = "<group>"; };
 		AABB000200000026 /* Scenario16_TernaryNestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario16_TernaryNestedView.swift; sourceTree = "<group>"; };
 		AABB000200000027 /* Scenario17_WithGuardAndElseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario17_WithGuardAndElseView.swift; sourceTree = "<group>"; };
+		AABB000200000028 /* Scenario21_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario21_NavigationView.swift; sourceTree = "<group>"; };
+		AABB000200000029 /* Scenario22_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario22_ScrollView.swift; sourceTree = "<group>"; };
+		AABB000200000030 /* Scenario23_TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario23_TabView.swift; sourceTree = "<group>"; };
+		AABB000200000031 /* Scenario24_ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario24_ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		51F133F02FE40CAF004D0438 /* Scenario */ = {
 			isa = PBXGroup;
 			children = (
+				51F134012FE58111004D0438 /* Scenario25_CommentedView.swift */,
 				AABB000200000011 /* Scenario01_DirectView.swift */,
 				AABB000200000012 /* Scenario02_ViewContainerView.swift */,
 				AABB000200000013 /* Scenario03_ReturnStatementView.swift */,
@@ -244,6 +247,7 @@
 				AABB000100000028 /* Scenario21_NavigationView.swift in Sources */,
 				AABB000100000029 /* Scenario22_ScrollView.swift in Sources */,
 				AABB000100000030 /* Scenario23_TabView.swift in Sources */,
+				51F134022FE58132004D0438 /* Scenario25_CommentedView.swift in Sources */,
 				AABB000100000031 /* Scenario24_ContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
