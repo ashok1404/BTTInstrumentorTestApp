@@ -1,6 +1,11 @@
-import SwiftUI
+//
+//  WithGuardAndElseView.swift
+//  BTTInstrumentorTestApp
+//
+//  Created by Ashok Singh on 19/06/26.
+//
 
-// MARK: - Scenario 17: guard/else with EmptyView, real view after
+import SwiftUI
 
 struct WithGuardAndElseView: View {
     var data: String? = "data"

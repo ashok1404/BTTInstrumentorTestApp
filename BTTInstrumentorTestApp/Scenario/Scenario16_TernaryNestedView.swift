@@ -1,6 +1,11 @@
-import SwiftUI
+//
+//  TernaryNestedView.swift
+//  BTTInstrumentorTestApp
+//
+//  Created by Ashok Singh on 19/06/26.
+//
 
-// MARK: - Scenario 16: Nested ternary expression
+import SwiftUI
 
 struct TernaryNestedView: View {
     @State private var state = 0

@@ -21,6 +21,13 @@ struct ContentView: View {
                 NavigationLink("Force Unwrap")               { ForceUnwrapScreen() }
                 NavigationLink("Nested Ternary")             { TernaryNestedScreen() }
                 NavigationLink("Guard With Else")            { WithGuardAndElseScreen() }
+                NavigationLink("Function Call")              { FunctionCall1() }
+                NavigationLink("Group")                      { GroupView() }
+                NavigationLink("List")                       { ListView() }
+                NavigationLink("Navigation Stack")           { NavigationViewScenario() }
+                NavigationLink("Scroll View")                { ScrollViewScenario() }
+                NavigationLink("Tab View")                   { TabViewScenario() }
+                NavigationLink("Container View")             { ContainerViewScenario() }
             }
             .navigationTitle("Body Scenarios")
         }
