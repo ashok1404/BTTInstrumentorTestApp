@@ -19,6 +19,20 @@ struct FunctionCall1: View {
     }
 }
 
+/*
+struct FunctionCall1: View {
+    var body: some View {
+        myView()
+        .bttTrackScreen("\(Self.self)")
+    }
+    
+    func myView() -> some View {
+        VStack {
+            Text("A")
+        }
+    }
+}*/
+
 struct ViewContainerView2: View {
     @State private var flag = false
     var body: some View {
@@ -35,3 +49,24 @@ struct ViewContainerView2: View {
         }
     }
 }
+
+/*
+struct ViewContainerView2: View {
+    @State private var flag = false
+    var body: some View {
+        if flag {
+            myView()
+            .bttTrackScreen("\(Self.self)")
+        } else {
+            myView()
+            .bttTrackScreen("\(Self.self)")
+        }
+    }
+    
+    func myView() -> some View {
+        VStack {
+            Text("A")
+        }
+    }
+}
+*/

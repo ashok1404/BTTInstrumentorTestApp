@@ -45,3 +45,7 @@ struct DirectViewScreen: View {
      }
  }
  */
+
+#Preview {
+    DirectViewScreen()
+}

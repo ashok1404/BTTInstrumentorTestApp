@@ -24,3 +24,24 @@ struct ListView: View {
         }
     }
 }
+
+/*
+ struct ListView: View {
+     var body: some View {
+         List {
+             VStack {
+                 Text("B")
+             }
+             
+             VStack {
+                 Text("C")
+             }
+             
+             VStack {
+                 Text("D")
+             }
+         }
+         .bttTrackScreen("\(Self.self)")
+     }
+ }
+ */

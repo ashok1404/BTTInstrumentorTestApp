@@ -17,3 +17,16 @@ struct GroupView: View {
         }
     }
 }
+
+/*
+ struct GroupView: View {
+    var body: some View {
+        Group {
+            VStack {
+                Text("A")
+            }
+        }
+        .bttTrackScreen("\(Self.self)")
+    }
+}
+ */
