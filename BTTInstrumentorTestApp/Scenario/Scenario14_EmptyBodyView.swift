@@ -1,10 +1,12 @@
 import SwiftUI
+import BlueTriangle
 
 // MARK: - Scenario 14: EmptyView body (rewriter skips injection)
 
 struct EmptyBodyView: View {
     var body: some View {
         EmptyView()
+        .bttTrack("\(Self.self)")
     }
 }
 
@@ -31,6 +33,7 @@ struct EmptyBodyScreen: View {
         }
         .navigationTitle("Empty Body")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 

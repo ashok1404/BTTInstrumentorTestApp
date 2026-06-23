@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct ScrollViewScenario: View {
     var body: some View {
@@ -16,6 +17,7 @@ struct ScrollViewScenario: View {
                 Text("Item C")
             }
         }
+        .bttTrack("\(Self.self)")
     }
 }
 

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct ContainerViewScenario: View {
     var body: some View {
@@ -13,6 +14,7 @@ struct ContainerViewScenario: View {
             Text("Title")
             Text("Subtitle")
         }
+        .bttTrack("\(Self.self)")
     }
 }
 
@@ -28,6 +30,7 @@ struct CardContainer<Content: View>: View {
         .padding()
         .background(Color.gray.opacity(0.1))
         .cornerRadius(12)
+        .bttTrack("\(Self.self)")
     }
 }
 

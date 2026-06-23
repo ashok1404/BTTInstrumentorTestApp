@@ -6,13 +6,17 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct TernaryNestedView: View {
     @State private var state = 0
     var body: some View {
-        state == 0 ? AnyView(Text("Zero")) :
-        state == 1 ? AnyView(Text("One")) :
-                     AnyView(Text("Other"))
+        state == 0 ? AnyView(Text("Zero")
+        .bttTrack("\(Self.self)")) :
+        state == 1 ? AnyView(Text("One")
+        .bttTrack("\(Self.self)")) :
+                     AnyView(Text("Other")
+        .bttTrack("\(Self.self)"))
     }
 }
 
@@ -45,6 +49,7 @@ struct TernaryNestedScreen: View {
         }
         .navigationTitle("Nested Ternary")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 

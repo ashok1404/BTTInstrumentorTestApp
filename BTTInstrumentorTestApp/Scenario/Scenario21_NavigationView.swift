@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct NavigationViewScenario: View {
     var body: some View {
@@ -14,6 +15,7 @@ struct NavigationViewScenario: View {
                 Text("Inside Navigation")
             }
         }
+        .bttTrack("\(Self.self)")
     }
 }
 

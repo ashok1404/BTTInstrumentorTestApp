@@ -1,4 +1,5 @@
 import SwiftUI
+import BlueTriangle
 
 // MARK: - Scenario 10: #if/#else compiler directive
 
@@ -6,8 +7,10 @@ struct IfConfigView: View {
     var body: some View {
         #if DEBUG
         DebugView()
+        .bttTrack("\(Self.self)")
         #else
         ReleaseView()
+        .bttTrack("\(Self.self)")
         #endif
     }
 }
@@ -41,6 +44,7 @@ struct IfConfigScreen: View {
         }
         .navigationTitle("#if Config")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 

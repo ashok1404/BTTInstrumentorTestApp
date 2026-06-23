@@ -1,4 +1,5 @@
 import SwiftUI
+import BlueTriangle
 
 // MARK: - Scenario 12: Side-effect (let binding) before real view
 
@@ -6,6 +7,7 @@ struct SideEffectBeforeView: View {
     var body: some View {
         let message = "appeared"
         return Text(message)
+        .bttTrack("\(Self.self)")
     }
 }
 
@@ -34,6 +36,7 @@ struct SideEffectBeforeScreen: View {
         }
         .navigationTitle("Side Effect Before View")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 

@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct CommentedView: View {
     var body: some View {
        // VStack {
             myView()
+            .bttTrack("\(Self.self)")
        /* }
         .padding()
         .background(Color.gray.opacity(0.1))

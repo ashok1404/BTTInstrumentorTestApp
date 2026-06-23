@@ -1,4 +1,5 @@
 import SwiftUI
+import BlueTriangle
 
 // MARK: - Scenario 03: Explicit return statement
 
@@ -7,6 +8,7 @@ struct ReturnStatementView: View {
         return NavigationStack {
             Text("Nav")
         }
+        .bttTrack("\(Self.self)")
     }
 }
 
@@ -36,6 +38,7 @@ struct ReturnStatementScreen: View {
         }
         .navigationTitle("Return Statement")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 

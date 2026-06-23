@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import BlueTriangle
 
 struct FunctionCall1: View {
     var body: some View {
         myView()
+        .bttTrack("\(Self.self)")
     }
     
     func myView() -> some View {
@@ -38,8 +40,10 @@ struct ViewContainerView2: View {
     var body: some View {
         if flag {
             myView()
+            .bttTrack("\(Self.self)")
         } else {
             myView()
+            .bttTrack("\(Self.self)")
         }
     }
     

@@ -7,16 +7,7 @@
       "location" : "https://github.com/JP-aloha/btt-swift-sdk.git",
       "state" : {
         "branch" : "feature/swiftui_auto_track",
-        "revision" : "99400b9a92ed3464e67c45c62998686c1004da20"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
-      "state" : {
-        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
-        "version" : "509.1.1"
+        "revision" : "d5cf6a0ba07751ba2e49af98a2f3d9890ab35950"
       }
     }
   ],

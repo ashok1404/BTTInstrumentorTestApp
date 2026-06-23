@@ -1,10 +1,12 @@
 import SwiftUI
+import BlueTriangle
 
 // MARK: - Scenario 01: Single expression body
 
 struct DirectView: View {
     var body: some View {
         Text("Hello")
+        .bttTrack("\(Self.self)")
     }
 }
 
@@ -32,6 +34,7 @@ struct DirectViewScreen: View {
         }
         .navigationTitle("Direct View")
         .navigationBarTitleDisplayMode(.large)
+        .bttTrack("\(Self.self)")
     }
 }
 
